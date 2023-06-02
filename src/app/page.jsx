@@ -1,8 +1,11 @@
+/** @format */
 
 const page = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div >
+      Home
+    </div>
+  );
+};
 
-export default page
+export default page;
