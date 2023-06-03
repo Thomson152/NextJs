@@ -1,9 +1,12 @@
 /** @format */
 
 import Link from "next/link";
-import React from "react";
+// import React, { useState } from "react";
+import { HiX } from "react-icons/hi";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
+
   return (
     <nav className="flex flex-row justify-between h-[100px]  items-center">
       <div>
@@ -52,9 +55,14 @@ const Navbar = () => {
         </ul>
       </div>
 
-      {/* Moblie */}
+      <div className="lg:hidden flex">
+        <HiX className="text-white text-3xl" />{" "}
+        <GiHamburgerMenu className="text-white text-3xl" />
+      </div>
 
-      <ul className="lg:hidden flex flex-col">
+      <ul className="lg:hidden absolute left-[10rem] top-7 flex flex-col">
+        {/* Moblie */}
+
         <li>
           <Link className="hover:text-green-600" href="/">
             Home
