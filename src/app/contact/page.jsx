@@ -12,7 +12,7 @@ const Contact = () => {
         </h1>
         <div className="flex justify-center md:flex-row flex-col items-center gap-[100px]">
           <div className="">
-            <Image src={contact} className="w-[100%] object-contain move" />
+            <Image src={contact} alt= ''  className="w-[100%] object" />
           </div>
 
           <div className="w-[100%] ">
