@@ -1,6 +1,9 @@
 /** @format */
+import dynamic from "next/dynamic";
 
-import Navbar from "@/components/Navbar/Navbar";
+const Navbar = dynamic(() => import("@/components/Navbar/Navbar"), {
+  ssr: false,
+});
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Footer from "@/components/Footer/Footer";

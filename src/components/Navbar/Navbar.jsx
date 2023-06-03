@@ -54,7 +54,7 @@ const Navbar = () => {
 
       {/* Moblie */}
 
-      <ul className="lg:hidden flex">
+      <ul className="lg:hidden flex flex-col">
         <li>
           <Link className="hover:text-green-600" href="/">
             Home
