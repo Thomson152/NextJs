@@ -12,7 +12,7 @@ const Contact = () => {
         </h1>
         <div className="flex justify-center md:flex-row flex-col items-center gap-[100px]">
           <div className="">
-            <Image src={contact} alt= ''  className="w-[100%] object" />
+            <Image src={contact} alt="" className="w-[100%] object" />
           </div>
 
           <div className="w-[100%] ">
@@ -35,7 +35,9 @@ const Contact = () => {
               ></textarea>
             </form>
             <div className="mt-4">
-            <button className="bg-[#53c28b] text-white py-3 rounded px-7">Send</button>
+              <button className="bg-[#53c28b] text-white py-3 rounded px-7">
+                Send
+              </button>
             </div>
           </div>
         </div>

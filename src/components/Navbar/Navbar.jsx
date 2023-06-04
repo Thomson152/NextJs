@@ -6,7 +6,6 @@ import { HiX } from "react-icons/hi";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
-
   return (
     <nav className="flex flex-row justify-between h-[100px]  items-center">
       <div>
