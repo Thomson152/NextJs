@@ -12,7 +12,7 @@ const Contact = () => {
         </h1>
         <div className="flex justify-center md:flex-row flex-col items-center gap-[100px]">
           <div className="">
-            <Image src={contact} alt="" className="w-[100%] object" />
+            <Image src={contact} alt="" className="w-[100%] object-contain move" />
           </div>
 
           <div className="w-[100%] ">
@@ -20,16 +20,16 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="name"
-                className="bg-[#111] border border-[#bbb] py-4 px-3"
+                className="bg-[#111] border outline-none border-[#bbb] py-4 px-3"
               />
               <input
                 type="text"
                 placeholder="email"
-                className="bg-[#111] border border-[#bbb] py-4 px-3"
+                className="bg-[#111] border outline-none border-[#bbb] py-4 px-3"
               />
               <textarea
                 placeholder="message"
-                className="bg-[#111] border border-[#bbb] py-4 px-3 "
+                className="bg-[#111] border outline-none border-[#bbb] py-4 px-3 "
                 cols="30"
                 rows="10"
               ></textarea>

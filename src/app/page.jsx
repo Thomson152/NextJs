@@ -15,7 +15,7 @@ const page = () => {
       </div>
       {/* <h1 className="sm:text-red-400 md:text-green-500 lg:text-purple-800">testing</h1> */}
       <div className="lg:max-w-[50%]">
-        <Image src={Hero} alt="" className="w-[100%] h-[500px] move "/>
+        <Image src={Hero} alt="" className="w-[100%] object-contain h-[500px] move "/>
       </div>
     </div>
   );

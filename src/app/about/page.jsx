@@ -55,13 +55,12 @@ const About = () => {
           <br /> - Fast and Handy
           <br />
           <br /> - Mobile Apps
-
           <div className="">
-          <button className='bg-[#53c28b] text-white py-3 rounded px-3 mt-4'>Contact</button>
+            <button className="bg-[#53c28b] text-white py-3 rounded px-3 mt-4">
+              Contact
+            </button>
+          </div>
         </div>
-        </div>
-
-        
       </div>
     </div>
   );

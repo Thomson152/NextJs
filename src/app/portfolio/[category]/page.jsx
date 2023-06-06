@@ -1,9 +1,12 @@
 import React from 'react'
 
-const Category = () => {
+const page = ({params}) => {
+
   return (
-    <div>Category</div>
+    <div>
+      <h1>{params.category}</h1>
+    </div>
   )
 }
 
-export default Category
+export default page
